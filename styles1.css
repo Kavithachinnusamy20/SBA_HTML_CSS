@@ -1,0 +1,44 @@
+/* index1.thml styles sheet for nav bar */
+nav
+{ 
+
+    padding: 20px;
+
+    background-color: #87aad2;
+}
+
+/* li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} */
+ nav a{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ff0000;
+    padding: 10px;
+}
+    
+img{
+    background-position: center;
+    width: max-content;
+    height: vh;
+}
+    
+    body{
+        background-image: url('background.gif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+
+    }

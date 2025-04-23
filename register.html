@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index1.html">Home</a>
+        <a href="register.html">New Register</a>
+        <a href="#contact">Contact</a>
+        <a href="loginuser.html">login-user</a>
+        <!-- <img src="login-user.png" alt="Login Icon" class="login-user"/>Log In -->
+        <li style="float:right"><a href="#about">About</a></li>
+    </nav>
+    <h2>Student Registration</h2>
+
+    <form action="/register" method="Register">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Register">
+        <!-- <select> -->
+            <form action="action_page.php">
+                <select name="Grade" id="Grade">
+                    <label for="Grade">Select a Grade</label>
+
+
+                    <option value="1st Grade">1st Grade</option>
+                    <option value="2nd Grade">2nd Grade</option>
+                    <option value="3rd Grade">3rd Grade</option>
+                    <option value="4th Grade">4th Grade</option>
+                    <option value="5th Grade">5th Grade</option>
+
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+
+            <p>Click the "Submit" button and the form-data will be sent to a page on the
+                server called "action_page.php".</p>
+
+
+    </form>
+
+</body>
+
+</html>
