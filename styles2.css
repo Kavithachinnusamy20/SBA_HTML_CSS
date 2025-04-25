@@ -1,29 +1,78 @@
-nav
-{ 
-
-    padding: 20px;
-
-    background-color: #87aad2;
-}
-
-/* li {
-    float: left;
-    border-right: 1px solid #bbb;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-} */
- nav a{
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #ff0000;
-    padding: 10px;}
-body{
+body {
     background-color: bisque;
+}
+
+.container {
+    border: 1px solid rgb(60, 36, 7);
+    display: flex;
+    font-size: large;
+
+}
+
+table {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border: 5px solid green;
+    margin-left: 200px;
+}
+
+th,
+td {
+    border: 2px solid rgb(82, 86, 88);
+}
+
+td:hover {
+    background-color: yellow;
+    color: black;
+}
+
+
+
+body {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(206, 201, 201);
+    /* margin: 100px; */
+    /* width: 250px; */
+    box-shadow: 10px 5px 5px rgb(209, 207, 207);
+    /* position: relative; */
+
+}
+
+.form {
+    border: 2px solid rgb(209, 206, 206);
+    background-color: rgb(234, 225, 225);
+    margin-left: 100px;
+    position: relative;
+    padding: 25px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 100px;
+    top: -20px;
+}
+
+.button {
+    background-color: aqua;
+    color: white;
+    width: 175px;
+    height: 30px;
+
+}
+
+.center {
+    background-color: rgb(221, 217, 217);
+    text-align: center;
+    height: 30px;
+}
+
+.forget-password {
+    color: orange;
+    text-align: center;
+    font-size: 17;
+    font-weight: 200px;
 }

@@ -5,56 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="styles2.css">
 </head>
 
 <body>
+
+
     <nav>
+        <h1>Excellent Multicultural School </h1>
         <a href="index1.html">Home</a>
         <a href="register.html">New Register</a>
+        <a href="register.html">schedule</a>
         <a href="#contact">Contact</a>
-        <a href="loginuser.html">login-user</a>
+        <a href="loginuser.html">Student-Portal</a>
         <!-- <img src="login-user.png" alt="Login Icon" class="login-user"/>Log In -->
         <li style="float:right"><a href="#about">About</a></li>
     </nav>
-    <h2>Student Registration</h2>
+    <BR><br>
 
-    <form action="/register" method="Register">
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname" required><br><br>
+    <div class="container">
 
-        <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname" required><br><br>
+        <div class="form">
+            <h2>Student Registration</h2>
+            <form action="register" method="Register">
+                <table style="border: 0;height: 10%">
+                    <tr >
+                        <td style="border: 0" > <label for="fname">First Name:</label></td>
+                        <td style="border: 0" > <input type="text" id="fname" name="fname" required></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 0"> <label for="lname">Last Name:</label></td>
+                        <td style="border: 0"> <input type="text" id="lname" name="lname" required></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 0"> <label for="email">Email:</label></td>
+                        <td style="border: 0"> <input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 0"> <label for="Grade">Select a Grade</label></td>
+                        <td style="border: 0">
+                            <select name="Grade" id="Grade" style="width: 180px;">
+                                <option value="1st Grade">1st Grade</option>
+                                <option value="2nd Grade">2nd Grade</option>
+                                <option value="3rd Grade">3rd Grade</option>
+                                <option value="4th Grade">4th Grade</option>
+                                <option value="5th Grade">5th Grade</option>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br>
-
-        <input type="submit" value="Register">
-        <!-- <select> -->
-            <form action="action_page.php">
-                <select name="Grade" id="Grade">
-                    <label for="Grade">Select a Grade</label>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="border: 0"> <input type="submit" value="Submit"> </td>
+                    </tr>
+                </table>
 
 
-                    <option value="1st Grade">1st Grade</option>
-                    <option value="2nd Grade">2nd Grade</option>
-                    <option value="3rd Grade">3rd Grade</option>
-                    <option value="4th Grade">4th Grade</option>
-                    <option value="5th Grade">5th Grade</option>
 
-                </select>
-                <br><br>
-                <input type="submit" value="Submit">
+                
+
+                <p>Click the "Submit" button and the form-data will be sent to a page on the
+                    server called "action_page.php".</p>
             </form>
+        </div>
+        <table class="table">
+            <caption>
+                <h1>Schedule</h1>
+            </caption>
+            <tr>
+                <th>Day</th>
+                <th>Open hour</th>
+                <th>Lunch</th>
+                <th>Dismissal</th>
+            </tr>
+            <tr>
+                <td>Regular day </td>
+                <td>8:45 a.m </td>
+                <td>12:45 p.m </td>
+                <td> 3:45 p.m</td>
+            </tr>
+            <tr>
+                <td>Early Dismissal day</td>
+                <td>8:45 a.m</td>
+                <td> No lunch</td>
+                <td>1:00 p.m</td>
+            </tr>
+            <tr>
+                <td> Delayed Open day</td>
+                <td>10:45 a.m </td>
+                <td> 12:45 p.m</td>
+                <td>3:45 p.m</td>
+            </tr>
+        </table>
 
-            <p>Click the "Submit" button and the form-data will be sent to a page on the
-                server called "action_page.php".</p>
-
-
-    </form>
+    </div>
 
 </body>
 
