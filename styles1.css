@@ -1,16 +1,67 @@
 body {
     /* background-image: url('background.gif'); */
-    background-image: url(Back_to_school.png);
+    background-image: url(img_school.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
-}
-/* .container{
-    display:grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-gap:10px;
-     */
+    /* width: 90vw; */
+    height: 90vh;
+    transition: 2s;
 
+}
+
+.grid-container {
+    display: flex;
+    border: 1px solid #ebe4e4;
+    width: 60%;
+    height: 50%;
+    /* border: 22px solid rgb(188, 38, 38); */
+    /* display:grid; */
+    /* grid-template-columns: auto; */
+    /* justify-content: space-between; */
+    height: 400px;
+    /* place-content: center; */
+    position: absolute;
+    left: 50PX;
+    bottom: 200px;
+    justify-content: space-around;
+
+
+}
+
+#contact {
+    border: 5PX solid rgb(35, 129, 212);
+    width: 400px;
+    height: 390PX;
+    background-color: bisque;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 5px;
+
+}
+
+#contact:hover {
+    transform: rotate(360deg);
+    transition: transform 2s ease-in;
+}
+
+#About {
+    border: 5PX solid rgb(35, 129, 212);
+    width: 600px;
+    height: 390PX;
+    background-color: bisque;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 5px;
+    font-size: x-large;
+}
+
+#About:hover {
+
+    transform: translate(150px, 100px);
+}
+
+#h1_one {
+    justify-self: center;
+    color: blue;
 }
